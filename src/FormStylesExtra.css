@@ -1,0 +1,63 @@
+.label, section > label{
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+input[type="submit"],
+.button {
+    position: relative;
+    background: #120632;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    display: block;
+    appearance: none;
+    border-radius: 50px;
+    width: 50%;
+    text-align: center;
+    font-weight: lighter;
+    transition: 0.3s all;
+    transform: translate(50%, 50%);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonBlack {
+    background: black;
+    border: 1px solid white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+input[type= 'submit']:active{
+    transition: 0.3s all;
+    top: 2px;
+}
+
+input[type= 'submit']:hover{
+    box-shadow: none;
+}
+
+.preact{
+    opacity: 0;
+    color: white;
+}
+
+.preact:hover{
+    opacity: 1;
+}
+
